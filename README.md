@@ -488,6 +488,14 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
       left_control
     </td>
   </tr>
+  <tr>
+    <td>
+      space 長押し
+    </td>
+    <td>
+      right_option
+    </td>
+  </tr>
 
   <tr>
     <td colspan=2>

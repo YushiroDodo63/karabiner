@@ -5,6 +5,21 @@
       "description": "All in One",
       "manipulators": [
         {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": ["right_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": "left_command"
+            }
+          ]
+        },
+        {
           "from": {
             "key_code": "spacebar",
             "modifiers": {

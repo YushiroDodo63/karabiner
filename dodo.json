@@ -1105,6 +1105,21 @@
       "description": "All in One for US",
       "manipulators": [
         {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": ["right_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": "left_command"
+            }
+          ]
+        },
+        {
           "from": {
             "key_code": "spacebar",
             "modifiers": {
@@ -2005,6 +2020,21 @@
     {
       "description": "All in One for JIS",
       "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": "left_command"
+            }
+          ]
+        },
         {
           "type": "basic",
           "from": {

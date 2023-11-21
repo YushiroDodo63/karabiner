@@ -247,6 +247,22 @@
         },
         {
           "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": "shift"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
             "key_code": "f",
             "modifiers": {
               "mandatory": ["right_option"],
@@ -277,7 +293,7 @@
         },
         {
           "from": {
-            "key_code": "s",
+            "key_code": "z",
             "modifiers": {
               "mandatory": ["right_option"],
               "optional": ["any"]
@@ -285,12 +301,43 @@
           },
           "to": [
             {
-              "key_code": "equal_sign",
+              "key_code": "open_bracket",
               "modifiers": "shift"
             }
           ],
           "type": "basic"
         },
+        {
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket",
+              "modifiers": "shift"
+            }
+          ],
+          "type": "basic"
+        },       
+        {
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket"
+            }
+          ],
+          "type": "basic"
+        },       
         {
           "from": {
             "key_code": "v",
@@ -301,11 +348,11 @@
           },
           "to": [
             {
-              "key_code": "slash"
+              "key_code": "close_bracket"
             }
           ],
           "type": "basic"
-        },
+        },       
         {
           "from": {
             "key_code": "b",
@@ -320,7 +367,86 @@
             }
           ],
           "type": "basic"
+        },    
+        {
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash"
+            }
+          ],
+          "type": "basic"
+        },       
+        {
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": "shift"
+            }
+          ],
+          "type": "basic"
+        },       
+        {
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ],
+          "type": "basic"
+        },       
+        {
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash",
+              "modifiers": "shift"
+            }
+          ],
+          "type": "basic"
+        },       
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": ["right_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": "shift"
+            }
+          ],
+          "type": "basic"
         },
+ 
         {
           "from": {
             "key_code": "q",

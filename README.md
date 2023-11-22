@@ -40,6 +40,7 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
 <img width="1096" alt="スクリーンショット 2023-09-09 22 10 21" src="https://github.com/YushiroDodo63/karabiner/assets/71711872/b2df2c1a-4d7c-46bb-8e4b-6b3fcf424526">
 
 ## キーバインド一覧
+※ JIS, US 共通で space を長押しすることで right_option になるように設定しています
 ### JIS
 ※ 英数長押し → left_command, かな長押し → right_option になるよう設定しているので以下の "left_command", "right_option" は 英数長押しまたはかな長押しに対応しています。
 
@@ -244,10 +245,34 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
   </tr>
   <tr>
     <td>
+      right_option + z
+    </td>
+    <td>
+      {
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + x
+    </td>
+    <td>
+      }
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + c
+    </td>
+    <td>
+      [
+    </td>
+  </tr>
+  <tr>
+    <td>
       right_option + v
     </td>
     <td>
-      /
+      ]
     </td>
   </tr>
   <tr>
@@ -256,6 +281,46 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
     </td>
     <td>
       `
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + n
+    </td>
+    <td>
+      /
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + m
+    </td>
+    <td>
+      ~
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + ,
+    </td>
+    <td>
+      \
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + .
+    </td>
+    <td>
+      |
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + /
+    </td>
+    <td>
+      ?
     </td>
   </tr>
   <tr>

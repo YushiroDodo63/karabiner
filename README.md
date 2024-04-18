@@ -17,11 +17,17 @@ URL: https://karabiner-elements.pqrs.org/
 
 
 ### 2. キーバインドの設定（USのみ）
-
+<!-- 
 Karabiner-ELements が開けると以下のような画面になると思うので、サイドバーの `Simple Modifications` を選択し、該当のキーボードを選択する。  
 右側の `Add item` をクリックし、 caps_lock を left_control に置き換える
+-->
+<!-- 
+<img width="1091" alt="スクリーンショット 2023-09-09 21 29 40" src="https://github.com/YushiroDodo63/karabiner/assets/71711872/cd3e9c26-7e54-47ca-8a45-3fd7d8b34d13"> 
+-->
 
-<img width="1091" alt="スクリーンショット 2023-09-09 21 29 40" src="https://github.com/YushiroDodo63/karabiner/assets/71711872/cd3e9c26-7e54-47ca-8a45-3fd7d8b34d13">
+Karabiner-ELements が開けると、サイドバーの `Simple Modifications` を選択し、該当のキーボードを選択する。  
+右側の `Add item` をクリックし、 caps_lock を left_control に置き換える
+
 
 ### 3. 設定の読み込み
 #### 3.1 設定ファイルの配置
@@ -29,7 +35,7 @@ Karabiner-ELements が開けると以下のような画面になると思うの�
 `~/.config/karabiner/assets/complex_modifications/dodo.json`  
 
 #### 3.2 Karabiner-Elements から設定を読み込み
-
+<!-- 
 Karabiner-Elements を開いて下記画面のサイドバーから `Complex Modifications` を選択し、 `Add rule` をクリック  
 <img width="1095" alt="スクリーンショット 2023-09-09 22 10 35" src="https://github.com/YushiroDodo63/karabiner/assets/71711872/1f7b0dbb-c526-4b57-b636-72cea16a79ed">
 
@@ -38,8 +44,15 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
 
 以下のように `Add rule` の上に選択した設定が追加されていればOK
 <img width="1096" alt="スクリーンショット 2023-09-09 22 10 21" src="https://github.com/YushiroDodo63/karabiner/assets/71711872/b2df2c1a-4d7c-46bb-8e4b-6b3fcf424526">
+-->
+Karabiner-Elements を開いてサイドバーから `Complex Modifications` を選択し、 `Add rule` をクリック  
+
+モーダルが表示されるので、キーボードに合わせて `All in one for JIS`, `All in one for US` のどちらかをクリック
+
+以下のように `Add rule` の上に選択した設定が追加されていればOK
 
 ## キーバインド一覧
+※ JIS, US 共通で space を長押しすることで right_option になるように設定しています
 ### JIS
 ※ 英数長押し → left_command, かな長押し → right_option になるよう設定しているので以下の "left_command", "right_option" は 英数長押しまたはかな長押しに対応しています。
 
@@ -244,10 +257,34 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
   </tr>
   <tr>
     <td>
+      right_option + z
+    </td>
+    <td>
+      {
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + x
+    </td>
+    <td>
+      }
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + c
+    </td>
+    <td>
+      [
+    </td>
+  </tr>
+  <tr>
+    <td>
       right_option + v
     </td>
     <td>
-      /
+      ]
     </td>
   </tr>
   <tr>
@@ -256,6 +293,46 @@ Karabiner-Elements を開いて下記画面のサイドバーから `Complex Mod
     </td>
     <td>
       `
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + n
+    </td>
+    <td>
+      /
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + m
+    </td>
+    <td>
+      ~
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + ,
+    </td>
+    <td>
+      \
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + .
+    </td>
+    <td>
+      |
+    </td>
+  </tr>
+  <tr>
+    <td>
+      right_option + /
+    </td>
+    <td>
+      ?
     </td>
   </tr>
   <tr>

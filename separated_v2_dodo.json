@@ -1,5 +1,5 @@
 {
-    "title": "For Everyone",
+    "title": "[Dodo] Separated Comprehensive Keyboard Modifier Configuration",
     "rules": [
         {
             "description": "[MUST: Hold space to right_option] Hold space → right_option, Hold space + hold left_command → right_option+left_option & Hold space + Tap left_command → Enter, Hold space + Tap right_command → cmd+Enter",

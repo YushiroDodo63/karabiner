@@ -1038,9 +1038,9 @@
             ]
         },
         {
-            "description": "[Application Control] right_option+left_command + m/, → Next App(cmd+tab) / Previous App(cmd+shift+tab)",
+            "description": "[Application Control] right_option+left_command or eisuu + m/, → Next App(cmd+tab) / Previous App(cmd+shift+tab)",
             "manipulators": [
-                
+
                 {
                     "from": {
                         "key_code": "m",
@@ -1132,7 +1132,7 @@
                     "type": "basic"
                 }
             ]
-        },    
+        },
         {
             "description": "[Window Control] right_option + n/m/,/. → Browser back / shift+ctrl+tab / ctrl+tab / Browser forward",
             "manipulators": [
@@ -1417,7 +1417,7 @@
             ]
         },
         {
-            "description": "right_option + f/d → escape/delete",
+            "description": "[Option]right_option + f/d → escape/delete",
             "manipulators": [
                 {
                     "from": {
